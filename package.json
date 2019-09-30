@@ -1,0 +1,30 @@
+{
+  "name": "mvc-demo-with-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node -p | node ./build/server.js",
+    "compile": "tsc -p ./tsconfig.json --outDir ./build/local/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.3",
+    "morgan": "^1.9.0",
+    "pug": "^2.0.0-rc.4",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.6.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.0",
+    "@types/mongodb": "^3.0.5",
+    "@types/morgan": "^1.7.35",
+    "@types/node": "^8.0.0",
+    "@types/pug": "^2.0.4",
+    "ts-node": "^4.1.0"
+  },
+  "description": ""
+}
